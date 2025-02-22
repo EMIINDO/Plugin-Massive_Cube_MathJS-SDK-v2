@@ -1,0 +1,64 @@
+﻿{
+	"MathJS":
+	{
+		"conditions":
+		[
+				
+		],
+		"actions":
+		[
+				
+		],
+		"expressions":
+		[
+			{
+				"id": "mathEval",
+				"expressionName": "mathEval",
+				"returnType": "string",
+				"params":
+				[
+					{"id": "string", "type": "string", "initialValue": "\"\""}
+				]
+			},
+			{
+				"id": "mathRound",
+				"expressionName": "mathRound",
+				"returnType": "number",
+				"params":
+				[
+					{"id": "float", "type": "number", "initialValue": "0"},
+					{"id": "numdigits", "type": "number", "initialValue": "0"}
+				]
+			},
+			{
+				"id": "mathDerivative",
+				"expressionName": "mathDerivative",
+				"returnType": "string",
+				"params":
+				[
+					{"id": "str1", "type": "string", "initialValue": "\"\""},
+					{"id": "str2", "type": "string", "initialValue": "\"\""}
+				]
+			},
+			{
+				"id": "mathForm",
+				"expressionName": "mathForm",
+				"returnType": "string",
+				"params":
+				[
+					{"id": "data", "type": "any", "initialValue": "\"\""},
+					{"id": "type", "type": "string", "initialValue": "\"\""}
+				]
+			},
+			{
+				"id": "mathFraction",
+				"expressionName": "mathFraction",
+				"returnType": "string",
+				"params":
+				[
+					{"id": "string", "type": "string", "initialValue": "\"\""}
+				]
+			}
+		]
+	}
+}

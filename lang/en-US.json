@@ -1,0 +1,90 @@
+﻿{
+	"languageTag": "en-US",
+	"fileDescription": "MathJS Plugin.",
+	"text": {
+		"plugins": {
+			"massive_cube_mathjs": {
+				"name": "MathJS",
+				"description": "MathJS Port for Construct 3 Runtime",
+				"help-url": "https://www.massive-cube.com/community",
+				"properties": {
+					
+				},
+				"aceCategories": {
+					"MathJS": "MathJS"
+				},
+				"conditions": {
+					
+				},
+				"actions": {
+					
+				},
+				"expressions": {
+					"mathEval": {
+						"description":"Math Eval",
+						"translated-name":"Math Eval",
+						"params": {
+							"string": {
+								"name": "Math-String", 
+								"desc": "Math-String"
+							}
+						}
+						
+					},
+					"mathRound": {
+						"description":"Math Round",
+						"translated-name":"Math Round",
+						"params": {
+							"float": {
+								"name": "Float", 
+								"desc": "Float"
+							},
+							"numdigits": {
+								"name": "numdigits", 
+								"desc": "Number of digits"
+							}
+						}
+					},
+					"mathDerivative": {
+						"description":"Math Derivative",
+						"translated-name":"Math Derivative",
+						"params": {
+							"str1": {
+								"name": "string", 
+								"desc": "string"
+							},
+							"str2": {
+								"name": "string", 
+								"desc": "string"
+							}
+						}
+					},
+					"mathForm": {
+						"description":"Math Form",
+						"translated-name":"Math Form",
+						"params": {
+							"data": {
+								"name": "data", 
+								"desc": "Value"
+							},
+							"type": {
+								"name": "Type", 
+								"desc": "Type"
+							}
+						}
+					},
+					"mathFraction": {
+						"description":"Math Fraction",
+						"translated-name":"Math Fraction",
+						"params": {
+							"string": {
+								"name": "Math-String", 
+								"desc": "Math-String"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
